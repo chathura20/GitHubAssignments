@@ -37,7 +37,18 @@ def update_light(current):
     else: 
         return 'green'
         
-  **** Umbrella one need to check ***
+        
+        
+ def take_umbrella(weather, rain_chance):
+    # Your code here.
+    a = weather == 'rainy'
+
+    b = weather == 'cloudy' and rain_chance > 0.20
+
+    c = weather == 'sunny' and rain_chance > 0.5
+    
+    return bool(a or b or c)
+  
   
   
   def my_add(a, b):
