@@ -26,4 +26,16 @@ def quadratic_formula(a, b, c):
     return [root1, root2]
     
  
+Logic / Control Flow
+
+def update_light(current):
+    # Your code here.
+    if     current == 'green':
+        return 'yellow'
+    elif   current == 'yellow':
+        return 'red'
+    else: 
+        return 'green'
+        
+
 
