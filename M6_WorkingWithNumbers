@@ -37,5 +37,15 @@ def update_light(current):
     else: 
         return 'green'
         
+  **** Umbrella one need to check ***
+  
+  
+  def my_add(a, b):
+    # Your code here.
+    try:
+        return a+b
+    except TypeError:
+        return None
+        
 
 
