@@ -36,6 +36,7 @@ def update_light(current):
         return 'red'
     else: 
         return 'green'
+     
         
         
         
@@ -59,4 +60,22 @@ def update_light(current):
         return None
         
 
+def color_probability(color, texture):
+    # Your code goes here.
+    if color == 'red' and texture == 'smooth' :
+        return str(1/3)[:4]
+    elif color == 'red' and texture == 'bumpy' :
+        return str(4/7)[:4]
+    elif color == 'yellow' and texture == 'bumpy' :
+        return str(2/7)[:4]
+    elif color == 'yellow' and texture == 'smooth' :
+        return str(1/3)[:4]
+    elif color == 'green' and texture == 'smooth' :
+        return str(1/3)[:4]
+    else :
+        return str(1/7)[:4]
+        
+   
+   
+   
 
