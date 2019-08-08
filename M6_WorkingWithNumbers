@@ -17,3 +17,13 @@ def box_capacity(length, width, height):
     return (length*width*height)*(0.75)**3
     
 
+def quadratic_formula(a, b, c):
+    import math
+    root1 = (-b+math.sqrt((b**2)-(4*(a*c))))/(2*a)
+    
+    root2 = (-b-math.sqrt((b**2)-(4*(a*c))))/(2*a)
+    
+    return [root1, root2]
+    
+ 
+
