@@ -101,5 +101,57 @@ def color_probability(color, texture):
         return "Pants on fire"
    
   
+  def longest(words):
+    # Your code here
+    longest_idx = 0
+    for index in words:
+        if len(index)>longest_idx:
+            longest_idx = len(index)
+    return longest_idx
+        
+  len(words)
+  
+  
+  def calculate_grade(scores):
+    # Your code here.
+        mean_score = sum(scores)/len(scores)
+        
+        if mean_score >= 90 : #and mean_score <= 100:
+            return 'A'
+        elif mean_score >= 80 : #and mean_score <= 90:
+            return 'B'
+        elif mean_score >= 70 : #and mean_score <= 80:
+            return 'C'
+        elif mean_score >= 60 : #and mean_score <= 70:
+            return 'D'
+        elif mean_score < 60:
+            return 'F'
+            
+            
+            
+    def process_data(data):
+    # Your code here
+    
+    result = 1
+    
+    for i in data:
+        result *=i[0] - i[-1]
+    return result
+    
+    
+    
+   def inverse_slice(items, a, b):
+    # Your code here.
+    del items[a:b]
+    return items
+    
+    
+    
+    
+ 
+ 
+    
+    
+    
   
 
