@@ -192,7 +192,52 @@ def modes(data):
                 return res
  
 
+ Vectors
  
+ class Vector(object):
+    def __init__(self, *args):
+        if len(args) == 0:
+            self.values = (0,0)
+        else:
+            self.values = args
+            self.x = self.values[0]
+            self.y = self.values[1]
+
+    def add(self, vector):
+        added = tuple(a + b for a, b in zip(self.values, vector.values))
+        return Vector(*added)
+        
+      
+ PUZZELBOX
+ 
+ 
+      
+      
+  
+  
+  
+ 
+  
+ QUARK
+  
+  
+  class Quark(object):
+    # Your code here.
+    def __init__(self, *args):
+        if args[0] in ("red", "blue", "green"):
+            self.color = args[0]
+        else:
+            raise Exception
+        if args[1] in ('up', 'down', 'strange', 'charm', 'top', 'bottom'):
+            self.flavor = args[1]
+        else:
+            raise Exception
+        self.baryon_number = 1.0/3
+
+    def interact(self, quark):
+        temp_color = self.color
+        self.color = quark.color
+        quark.color = temp_color
     
     
     
