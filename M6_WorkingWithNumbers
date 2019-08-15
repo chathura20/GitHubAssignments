@@ -108,8 +108,7 @@ def color_probability(color, texture):
         if len(index)>longest_idx:
             longest_idx = len(index)
     return longest_idx
-        
-  len(words)
+   
   
   
   def calculate_grade(scores):
@@ -148,7 +147,51 @@ def color_probability(color, texture):
     
     
     
+ Oder Filler 
  
+ def fillable(stock, merch, n):
+    # Your code goes here.
+    if stock.get(merch) is None:
+        return False
+    else:
+        return stock.get(merch) >= n
+        
+
+User Contacts 
+
+def user_contacts(data):
+    # Your code here.
+    result = {}
+    for i in data :
+        if len(i) == 1:
+            result[i[0]] = None
+        else:
+            result[i[0]] = i[1]
+    return result
+    
+
+
+Multiple Modes 
+
+def modes(data):
+    # Your code here.
+        result_dict = {}
+        for idx, i in enumerate(data):
+                if result_dict.get(i):
+                        result_dict[i] += 1
+                else:
+                        result_dict[i] = 1
+        print(result_dict)
+
+        res = []
+
+        res =  [k for k,v in result_dict.items() if v == max(result_dict.values())]
+        if len(res) == len(data):
+                return []
+        else:
+                return res
+ 
+
  
     
     
