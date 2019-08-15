@@ -75,6 +75,30 @@ def color_probability(color, texture):
     else :
         return str(1/7)[:4]
         
+        
+   
+   def categorize_study(p_value, requirements):
+    bs_factor = 0
+    if requirements == 6:
+        bs_factor = 1
+    elif requirements == 5:
+        bs_factor = 2
+    elif requirements == 4:
+        bs_factor = 4
+    elif requirements == 3:
+        bs_factor = 8
+    product = p_value * bs_factor
+    if product < 0.05:
+        return "Fine"
+    elif product > 0.05 and product < 0.15:
+        return "Needs review"
+    elif product >= 0.15:
+        return "Pants on fire"
+   
+   
+   
+   
+   
    
    
    
