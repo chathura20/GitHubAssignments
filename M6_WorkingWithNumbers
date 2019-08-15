@@ -100,5 +100,6 @@ def color_probability(color, texture):
     elif product >= 0.15:
         return "Pants on fire"
    
-   
+  
+  
 
