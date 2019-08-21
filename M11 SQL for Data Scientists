@@ -27,3 +27,10 @@ Select maxtemperaturef, zip
 FROM public.weather
 where maxtemperaturef = (Select MAX(maxtemperaturef)
 						FROM public.weather)
+
+
+SELECT start_station, count(*) as NumOfTrips
+FROM public.trips
+GROUP BY start_station
+
+
