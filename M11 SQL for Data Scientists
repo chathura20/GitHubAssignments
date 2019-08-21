@@ -21,3 +21,9 @@ WHERE zip = '94301';
 
 
 
+--What was the hottest day in our data set? Where was that?
+
+Select maxtemperaturef, zip
+FROM public.weather
+where maxtemperaturef = (Select MAX(maxtemperaturef)
+						FROM public.weather)
