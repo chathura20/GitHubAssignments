@@ -53,4 +53,17 @@ GROUP BY end_station;
 
 
 
+-- --What are the three longest trips on rainy days?
+
+with rainy as (
+				SELECT
+				DATE(date) as rainy_date
+				FROM weather
+				WHERE events = 'Rain'
+				group by 1
+			) 
+SELECT t.trip_id, t.duration, DATE(t.start_date) 
+FROM trips t JOIN rainy r on DATE(t.start_date) = r.rainy_date 
+ORDER BY duration DESC 
+LIMIT 3
 
