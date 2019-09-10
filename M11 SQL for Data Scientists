@@ -67,3 +67,13 @@ FROM trips t JOIN rainy r on DATE(t.start_date) = r.rainy_date
 ORDER BY duration DESC 
 LIMIT 3
 
+
+
+--Which station is full most often?
+
+SELECT  
+	COUNT(CASE WHEN docks_available=0 then 1 END) empty_count
+	,a.station_id, b.name
+	FROM status a JOIN stations b on a.station_id= b.station_id 
+	GROUP BY 3,2
+	ORDER BY empty_count DESC
