@@ -1,0 +1,24 @@
+Assignment
+For each of the following scenarios, call out the potential biases in the proposed experiment.
+
+You're testing advertising emails for a bathing suit company and you test one version of the email in February and the other in May.
+The response rate of the different versions of the advertising emails maybe biased by the difference in seasons in the groups. For example,
+bathing suits sales experience a high during summer seasons where people are most likely to go on a beach vacation.
+The email sent out in February will be unlikely to receive a response from the customer compared to the other sent in May since May
+is the beginning of summer.
+
+You open a clinic to treat anxiety and find that the people who visit show a higher rate of anxiety than the general population.
+Anxiety is a common condition among people. However, unless it is serve, people will unlikely be willing to find a treatment, 
+such as attending therapry at a clinic. Thus, the anxiety rate at the clinic is biased by the individual's desire to seek help based on
+his or her anxiety level.
+
+You launch a new ad billboard based campaign and see an increase in website visits in the first week.
+If "first week" is being interpreted as the first week of the website being launched, then this experiment is biased by the website's 
+launch date. For example, if a new website is launched, it will receive an increase in website visits because people are curious about
+a new product. The amount of increased visits may not be a direct effect of a new ad billboard based campaign.
+
+You launch a loyalty program but see no change in visits in the first week.
+Depending on the type of product the company provides, this experiment will be biased by the customers usage of the product. For example,
+if the company is a clothing store, the loyalty program will most likely not influence the customer to return within the first week 
+since people generally do not shop more than once per week. Monitoring the loyalty program over a longer period amount of time,
+such as by month, would provide better insight of the loyalty program experiment.
