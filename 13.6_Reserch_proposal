@@ -1,0 +1,23 @@
+Assignment
+Look back to the potential experiments in the previous assignment. For one of those experiments, write up the essential points of a 
+research proposal for an improved version of that experiment.
+
+The Problem
+
+The Sith Lords are concerned that their recruiting slogan, "Give In to Your Anger," isn't very effective.
+
+The Potential Solution
+
+Darth Vader develops an alternative slogan, "Together We Can Rule the Galaxy."
+
+The Method of Testing the Solution
+
+Have Darth Vader deliver the new slogan to one group of the 50 captured droids and the old slogan to the other group. Droid conversion 
+should be monitor for the next two months. Since the variable of interest is their recruiting slogan, this is an A/B manipulation 
+where a new or old slogan is presented.
+We will record the conversion rate for two months before the study and compare it to the conversion rate of the new and old slogan 
+during the study.
+If the conversion rate in the next two months increases by 10% within the new slogan test group, we will conclude that the new slogan 
+is effective and recommend the Sith Lords to use it as their recruiting slogan. If the conversion rate decreases among droid that were
+exposed to the new slogan, by more than one standard deviation, we will not continue to use the new slogan. However, if it only decreases
+within one standard deviation, we should continue to monitor the conversion rate for another two months.
