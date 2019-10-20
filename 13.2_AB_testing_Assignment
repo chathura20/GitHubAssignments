@@ -1,0 +1,96 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Assignment\n",
+    "For each of the following questions, outline how you could use an A/B test to find an answer. Be sure to identify all five key components of an A/B test.\n",
+    "\n",
+    "Does a new supplement help people sleep better?\n",
+    "\n",
+    "1.Two verisons\n",
+    "Control: people sleep without any new supplement\n",
+    "Treatment: give new supplement to people\n",
+    "2.Sample \n",
+    "Everyone would recieve a set of supplements. Some will be the current ones people have been using while others will recieve the new pill.\n",
+    "3.Hypothesis \n",
+    "I expect people who used the new supplement to respond with a better quality of sleep.\n",
+    "4.Outcome\n",
+    "We would follow up with people about how their sleep quality is in regards to the supplement pill. If number of people who recieved the new supplement pill claim to have better quality of sleep over the people with the old supplement pill, then we will recommend the new supplement to people.\n",
+    "5.Other measured variables\n",
+    "The sample groups should be similar to each other in terms of gender, age, and other recorded health risks.\n",
+    "\n",
+    "Will new uniforms help a gym's business?\n",
+    "\n",
+    "1.Two verisons\n",
+    "Control: employees wear current attire \n",
+    "Treatment: employees wear new uniform\n",
+    "2.Sample \n",
+    "If there are two gym locations that have similar revenue patterns, assign one location to wear new employees to wear new uniforms for the quarter.\n",
+    "3.Hypothesis \n",
+    "I expect that the gym location with new uniforms will have increase revenue. \n",
+    "4.Outcome \n",
+    "If the gym with new uniforms has an increase rate of new memeber registratons, all employees should wear the new uniform.\n",
+    "5.Other measured variables \n",
+    "Both of the gyms should be similar in the demographics and ages of the regular memembers. \n",
+    "\n",
+    "Will a new homepage improve my online exotic pet rental business?\n",
+    "\n",
+    "1.Two verisons\n",
+    "Control: current homepage \n",
+    "Treatment: new homepage with improvements \n",
+    "2.Sample\n",
+    "Users will be randomly selected to view the control or treatment page. The sample should be equal over the day and time of user interaction.\n",
+    "3.Hypothesis \n",
+    "I expect the new homepage to increase of number of sales. \n",
+    "4.Outcome \n",
+    "The new homepage will increase the numbers of clicks on the page.\n",
+    "5.Other measured variables \n",
+    "Location would also be taken into consideration when creating the sample groups.\n",
+    "\n",
+    "If I put 'please read' in the email subject will more people read my emails?\n",
+    "\n",
+    "1.Two verisons\n",
+    "Control: email subject without 'please read' \n",
+    "Treatment: email subject with 'please read' \n",
+    "2.Sample\n",
+    "Send out emails to all people on the email list during the same time of day. Half would recieve the control verison of the email while the other will recieve the treatment verison.\n",
+    "3.Hypothesis \n",
+    "I except emails with 'please read' in the subject line to have a higher response rate. \n",
+    "4.Outcome\n",
+    "A link to verify that the person has read the email should be included in the email. We can measure success by the number of clicks on the link. \n",
+    "5.Other measured variables\n",
+    "The position level and gender ratio should be similar in the sample groups. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
